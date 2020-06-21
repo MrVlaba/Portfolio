@@ -1,0 +1,145 @@
+*{box-sizing: border-box;}
+
+#head{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+    background-color: transparent;
+    border-color: none;
+}
+
+.menu{
+    margin-bottom: auto;
+    list-style: none;
+    height: 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+ul {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    list-style: disc inside;
+    display: inline-flex;
+    border-bottom: 5px solid #222222;
+    
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #a76767;
+    line-height: 35px;
+    display: block;
+    padding: 0 100px;
+    text-transform: uppercase;
+    border-bottom:none;
+}
+
+
+.foot{
+    background-color: #99a1ad;
+    text-align: center;
+}
+
+.foot img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.bio{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    
+}
+
+img{
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+    min-width: auto;
+    min-height: auto;
+}
+
+.image{
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    min-width: auto;
+    min-height: auto;
+    border: 10px;
+    margin: 50px;
+    text-align: center;
+
+    border-color: black;
+
+
+    border-bottom: 20px solid #222222;
+}
+
+.bio img{
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 200px;
+    min-width: auto;
+    min-height: auto;
+    border-radius: 50%;
+}
+
+
+main{
+    border-bottom: 5px solid #222222;
+}
+
+
+.slider{
+    position: relative;
+    margin: auto;
+}
+
+.slidefade{
+    display: none;
+}
+
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: #1a7cbd;
+    color: white;
+  }
