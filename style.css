@@ -42,8 +42,8 @@ li{
     font-size: 15px;
     color: black;
     line-height: 35px;
-    display: block;
-    padding: 1px 100px;
+    margin: 7px;
+    margin-left: 5px;
     text-transform: uppercase;
 }
 
@@ -86,7 +86,10 @@ img{
     border: 2px solid;
     border-color: black;
 }
-
+h1{
+    vertical-align: middle;
+    justify-content: center;
+}
 .image{
     min-width: auto;
     min-height: auto;
